@@ -5,6 +5,9 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 800
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 120
 
+#define U_MOUSE_MOVE_MAX 1200
+#define U_MOUSE_SCROLL_MAX 8
+
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
