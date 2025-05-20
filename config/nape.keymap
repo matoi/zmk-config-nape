@@ -4,7 +4,6 @@
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 800
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 120
-
 #define U_MOUSE_MOVE_MAX 1200
 #define U_MOUSE_SCROLL_MAX 8
 
@@ -111,7 +110,7 @@
 
         orientation0_layer {
             bindings = <
-&lt_mkp 10 MB3  &mkp MB2  &mkp MB1  &mo 8  &mo 9  &mo 11
+&mkp MB3  &mkp MB1  &lt_mkp 10 MB2  &mo 8  &mo 9  &mo 11
             >;
         };
 
@@ -119,7 +118,7 @@
 
         orientation45_layer {
             bindings = <
-&lt_mkp 10 MB3  &mkp MB2  &mkp MB1  &mo 8  &mo 9  &mo 11
+&trans  &trans  &trans  &mo 8  &mo 9  &mo 11
             >;
         };
 
@@ -127,7 +126,7 @@
 
         orientation90_layer {
             bindings = <
-&lt_mkp 10 MB3  &mkp MB2  &mkp MB1  &mo 8  &mo 9  &mo 11
+&trans  &trans  &trans  &mo 8  &mo 9  &mo 11
             >;
         };
 
@@ -135,7 +134,7 @@
 
         orientation135_layer {
             bindings = <
-&lt_mkp 10 MB3  &mkp MB2  &mkp MB1  &mo 8  &mo 9  &mo 11
+&trans  &trans  &trans  &mo 8  &mo 9  &mo 11
             >;
         };
 
@@ -143,7 +142,7 @@
 
         orientation180_layer {
             bindings = <
-&lt_mkp 10 MB3  &mkp MB2  &mkp MB1  &mo 8  &mo 9  &mo 11
+&trans  &trans  &trans  &mo 8  &mo 9  &mo 11
             >;
         };
 
@@ -151,7 +150,7 @@
 
         orientation225_layer {
             bindings = <
-&lt_mkp 10 MB3  &mkp MB2  &mkp MB1  &mo 8  &mo 9  &mo 11
+&trans  &trans  &trans  &mo 8  &mo 9  &mo 11
             >;
         };
 
@@ -159,7 +158,7 @@
 
         orientation270_layer {
             bindings = <
-&lt_mkp 10 MB3  &mkp MB2  &mkp MB1  &mo 8  &mo 9  &mo 11
+&trans  &trans  &trans  &mo 8  &mo 9  &mo 11
             >;
         };
 
@@ -167,7 +166,7 @@
 
         orientation315_layer {
             bindings = <
-&lt_mkp 10 MB3  &mkp MB2  &mkp MB1  &mo 8  &mo 9  &mo 11
+&trans  &trans  &trans  &mo 8  &mo 9  &mo 11
             >;
         };
 
